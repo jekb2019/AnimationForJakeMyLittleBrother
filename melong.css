@@ -40,10 +40,6 @@ h1, p {
     border-radius: 200px 200px 0 0;
 }
 
-.hair:active {
-    background-color: red;
-}
-
 .eyes {
     width: 100%;
     display: flex;
