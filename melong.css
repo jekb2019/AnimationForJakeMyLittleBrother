@@ -9,6 +9,19 @@ body {
     padding-bottom: 10px;
 }
 
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
 .head {
     height: 400px;
     width: 500px;
@@ -102,4 +115,14 @@ body {
 
 .head:hover .tongue {
     height: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+    .description {
+        margin-bottom: -50px;
+    }
+    
+    .head {
+        transform: scale(0.6);
+    }
 }
